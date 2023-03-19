@@ -18,4 +18,16 @@
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
   </entry>
+  <entry>
+    <title>New Blog With Hexo</title>
+    <url>/2023/03/19/New-Blog-With-Hexo/</url>
+    <content><![CDATA[<p>Hexo is not a good framework for blog.</p>
+]]></content>
+      <categories>
+        <category>Hong Kong Life</category>
+      </categories>
+      <tags>
+        <tag>Hong Kong</tag>
+      </tags>
+  </entry>
 </search>

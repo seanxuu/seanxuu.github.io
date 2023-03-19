@@ -6,7 +6,7 @@
   <link href="https://seanxuu.github.io/atom.xml" rel="self"/>
   
   <link href="https://seanxuu.github.io/"/>
-  <updated>2023-03-19T01:12:36.976Z</updated>
+  <updated>2023-03-19T02:23:00.862Z</updated>
   <id>https://seanxuu.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>New Blog With Hexo</title>
+    <link href="https://seanxuu.github.io/2023/03/19/New-Blog-With-Hexo/"/>
+    <id>https://seanxuu.github.io/2023/03/19/New-Blog-With-Hexo/</id>
+    <published>2023-03-19T02:17:30.000Z</published>
+    <updated>2023-03-19T02:23:00.862Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hexo is not a good framework for blog.</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hexo is not a good framework for blog.&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="Hong Kong Life" scheme="https://seanxuu.github.io/categories/Hong-Kong-Life/"/>
+    
+    
+    <category term="Hong Kong" scheme="https://seanxuu.github.io/tags/Hong-Kong/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
