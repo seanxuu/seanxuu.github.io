@@ -1,4 +1,4 @@
-https://seanxuu.github.io/2023/03/19/New-Blog-With-Hexo/
+https://seanxuu.github.io/2023/New-Blog-With-Hexo/
 https://seanxuu.github.io/about/index.html
 https://seanxuu.github.io/categories/index.html
 https://seanxuu.github.io/
