@@ -1,6 +1,8 @@
+https://seanxuu.github.io/2023/Two-ways-to-install-CUDA-11-7-on-Ubuntu/
 https://seanxuu.github.io/about/index.html
 https://seanxuu.github.io/2023/New-Blog-With-Hexo/
 https://seanxuu.github.io/categories/index.html
 https://seanxuu.github.io/
 https://seanxuu.github.io/tags/Hong-Kong/
+https://seanxuu.github.io/tags/CUDA/
 https://seanxuu.github.io/categories/Hong-Kong-Life/

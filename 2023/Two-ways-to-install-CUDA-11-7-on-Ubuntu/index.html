@@ -20,23 +20,28 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"seanxuu.github.io","root":"/","images":"/images","scheme":"Muse","darkmode":true,"version":"8.15.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"disqus","storage":true,"lazyload":true,"nav":null,"activeClass":"disqus"},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
-    <meta property="og:type" content="website">
-<meta property="og:title" content="Sean&#39;s Blog">
-<meta property="og:url" content="https://seanxuu.github.io/index.html">
+    <meta name="description" content="CUDA 11.7-ubuntu install-online1234567891011wget https:&#x2F;&#x2F;developer.download.nvidia.com&#x2F;compute&#x2F;cuda&#x2F;repos&#x2F;ubuntu2004&#x2F;x86_64&#x2F;cuda-ubuntu2004.pinsudo mv cuda-ubuntu2004.pin &#x2F;etc&#x2F;apt&#x2F;preferences.d&#x2F;cuda-r">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Two ways to install CUDA 11.7 on Ubuntu">
+<meta property="og:url" content="https://seanxuu.github.io/2023/Two-ways-to-install-CUDA-11-7-on-Ubuntu/index.html">
 <meta property="og:site_name" content="Sean&#39;s Blog">
+<meta property="og:description" content="CUDA 11.7-ubuntu install-online1234567891011wget https:&#x2F;&#x2F;developer.download.nvidia.com&#x2F;compute&#x2F;cuda&#x2F;repos&#x2F;ubuntu2004&#x2F;x86_64&#x2F;cuda-ubuntu2004.pinsudo mv cuda-ubuntu2004.pin &#x2F;etc&#x2F;apt&#x2F;preferences.d&#x2F;cuda-r">
 <meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2023-08-06T14:31:49.000Z">
+<meta property="article:modified_time" content="2023-08-06T14:35:44.222Z">
 <meta property="article:author" content="Sean">
+<meta property="article:tag" content="CUDA">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="https://seanxuu.github.io/">
+<link rel="canonical" href="https://seanxuu.github.io/2023/Two-ways-to-install-CUDA-11-7-on-Ubuntu/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":true,"isPost":false,"lang":"en","comments":"","permalink":"","path":"index.html","title":""}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"en","comments":true,"permalink":"https://seanxuu.github.io/2023/Two-ways-to-install-CUDA-11-7-on-Ubuntu/","path":"2023/Two-ways-to-install-CUDA-11-7-on-Ubuntu/","title":"Two ways to install CUDA 11.7 on Ubuntu"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>Sean's Blog</title>
+<title>Two ways to install CUDA 11.7 on Ubuntu | Sean's Blog</title>
   
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-KDRG5RZTLD"></script>
   <script class="next-config" data-name="google_analytics" type="application/json">{"tracking_id":"G-KDRG5RZTLD","only_pageview":false}</script>
@@ -73,7 +78,7 @@
 
     <a href="/" class="brand" rel="start">
       <i class="logo-line"></i>
-      <h1 class="site-title">Sean's Blog</h1>
+      <p class="site-title">Sean's Blog</p>
       <i class="logo-line"></i>
     </a>
   </div>
@@ -126,7 +131,7 @@
   
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           Table of Contents
@@ -139,6 +144,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#CUDA-11-7-ubuntu-install-online"><span class="nav-number">1.</span> <span class="nav-text">CUDA 11.7-ubuntu install-online</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#CUDA-11-7-ubuntu-install-offline"><span class="nav-number">2.</span> <span class="nav-text">CUDA 11.7-ubuntu install-offline</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Removing-x2F-Uninstall-CUDA-Toolkit-and-Driver"><span class="nav-number">3.</span> <span class="nav-text">Removing&#x2F;Uninstall CUDA Toolkit and Driver</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -187,16 +193,17 @@
 
     </div>
 
-    <div class="main-inner index posts-expand">
+    <div class="main-inner post posts-expand">
 
-    
+
+  
 
 
 <div class="post-block">
   
   
 
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="en">
     <link itemprop="mainEntityOfPage" href="https://seanxuu.github.io/2023/Two-ways-to-install-CUDA-11-7-on-Ubuntu/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -210,13 +217,13 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | Sean's Blog">
+      <meta itemprop="name" content="Two ways to install CUDA 11.7 on Ubuntu | Sean's Blog">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2023/Two-ways-to-install-CUDA-11-7-on-Ubuntu/" class="post-title-link" itemprop="url">Two ways to install CUDA 11.7 on Ubuntu</a>
-        </h2>
+        <h1 class="post-title" itemprop="name headline">
+          Two ways to install CUDA 11.7 on Ubuntu
+        </h1>
 
         <div class="post-meta-container">
           <div class="post-meta">
@@ -254,14 +261,13 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h1 id="CUDA-11-7-ubuntu-install-online"><a href="#CUDA-11-7-ubuntu-install-online" class="headerlink" title="CUDA 11.7-ubuntu install-online"></a>CUDA 11.7-ubuntu install-online</h1><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin</span><br><span class="line"></span><br><span class="line">sudo mv cuda-ubuntu2004.pin /etc/apt/preferences.d/cuda-repository-pin-600</span><br><span class="line"></span><br><span class="line">sudo apt-key adv --fetch-keys https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/3bf863cc.pub</span><br><span class="line"></span><br><span class="line">sudo add-apt-repository &quot;deb https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/ /&quot;</span><br><span class="line"></span><br><span class="line">sudo apt-get update</span><br><span class="line"></span><br><span class="line">sudo apt-get -y install cuda</span><br></pre></td></tr></table></figure>
+        <h1 id="CUDA-11-7-ubuntu-install-online"><a href="#CUDA-11-7-ubuntu-install-online" class="headerlink" title="CUDA 11.7-ubuntu install-online"></a>CUDA 11.7-ubuntu install-online</h1><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin</span><br><span class="line"></span><br><span class="line">sudo mv cuda-ubuntu2004.pin /etc/apt/preferences.d/cuda-repository-pin-600</span><br><span class="line"></span><br><span class="line">sudo apt-key adv --fetch-keys https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/3bf863cc.pub</span><br><span class="line"></span><br><span class="line">sudo add-apt-repository &quot;deb https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/ /&quot;</span><br><span class="line"></span><br><span class="line">sudo apt-get update</span><br><span class="line"></span><br><span class="line">sudo apt-get -y install cuda</span><br></pre></td></tr></table></figure>
 <h1 id="CUDA-11-7-ubuntu-install-offline"><a href="#CUDA-11-7-ubuntu-install-offline" class="headerlink" title="CUDA 11.7-ubuntu install-offline"></a>CUDA 11.7-ubuntu install-offline</h1><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin</span><br><span class="line">sudo mv cuda-ubuntu2004.pin /etc/apt/preferences.d/cuda-repository-pin-600</span><br><span class="line">wget https://developer.download.nvidia.com/compute/cuda/11.7.0/local_installers/cuda-repo-ubuntu2004-11-7-local_11.7.0-515.43.04-1_amd64.deb</span><br><span class="line">sudo dpkg -i cuda-repo-ubuntu2004-11-7-local_11.7.0-515.43.04-1_amd64.deb</span><br><span class="line">sudo cp /var/cuda-repo-ubuntu2004-11-7-local/cuda-*-keyring.gpg /usr/share/keyrings/</span><br><span class="line">sudo apt-get update</span><br><span class="line">sudo apt-get -y install cuda</span><br></pre></td></tr></table></figure>
 
 
 
 <h1 id="Removing-x2F-Uninstall-CUDA-Toolkit-and-Driver"><a href="#Removing-x2F-Uninstall-CUDA-Toolkit-and-Driver" class="headerlink" title="Removing&#x2F;Uninstall CUDA Toolkit and Driver"></a>Removing&#x2F;Uninstall CUDA Toolkit and Driver</h1><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_">#</span><span class="language-bash"><span class="comment"># To remove CUDA Toolkit:</span></span></span><br><span class="line"></span><br><span class="line">sudo apt-get --purge remove &quot;*cuda*&quot; &quot;*cublas*&quot; &quot;*cufft*&quot; &quot;*cufile*&quot; &quot;*curand*&quot; \</span><br><span class="line"> &quot;*cusolver*&quot; &quot;*cusparse*&quot; &quot;*gds-tools*&quot; &quot;*npp*&quot; &quot;*nvjpeg*&quot; &quot;nsight*&quot; &quot;*nvvm*&quot;</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_">#</span><span class="language-bash"><span class="comment"># To remove NVIDIA Drivers:</span></span></span><br><span class="line"></span><br><span class="line">sudo apt-get --purge remove &quot;*nvidia*&quot; &quot;libxnvctrl*&quot;</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_">#</span><span class="language-bash"><span class="comment"># To clean up the uninstall:</span></span></span><br><span class="line"></span><br><span class="line">sudo apt-get autoremove</span><br></pre></td></tr></table></figure>
 
-      
     </div>
 
     
@@ -269,101 +275,38 @@
     
 
     <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
+          <div class="followme">
+  <span>Welcome to my other publishing channels</span>
+
+  <div class="social-list">
+
+      <div class="social-item">
+          <a target="_blank" class="social-link" href="/atom.xml">
+            <span class="icon">
+              <i class="fa fa-rss"></i>
+            </span>
+
+            <span class="label">RSS</span>
+          </a>
+      </div>
+  </div>
 </div>
 
+          <div class="post-tags">
+              <a href="/tags/CUDA/" rel="tag"># CUDA</a>
+          </div>
 
+        
 
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://seanxuu.github.io/2023/New-Blog-With-Hexo/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="https://avatars.githubusercontent.com/u/118865326?v=4">
-      <meta itemprop="name" content="Sean">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Sean's Blog">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | Sean's Blog">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2023/New-Blog-With-Hexo/" class="post-title-link" itemprop="url">New Blog With Hexo</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-      
-
-      <time title="Created: 2023-03-19 10:17:30 / Modified: 10:23:00" itemprop="dateCreated datePublished" datetime="2023-03-19T10:17:30+08:00">2023-03-19</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/Hong-Kong-Life/" itemprop="url" rel="index"><span itemprop="name">Hong Kong Life</span></a>
-        </span>
-    </span>
-
-  
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="far fa-comment"></i>
-      </span>
-      <span class="post-meta-item-text">Disqus: </span>
-    
-    <a title="disqus" href="/2023/New-Blog-With-Hexo/#disqus_thread" itemprop="discussionUrl">
-      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2023/New-Blog-With-Hexo/" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>Hexo is not a good framework for blog.</p>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2023/New-Blog-With-Hexo/" rel="prev" title="New Blog With Hexo">
+                  <i class="fa fa-chevron-left"></i> New Blog With Hexo
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
     </footer>
   </article>
 </div>
@@ -372,6 +315,12 @@
 
 
 
+
+    
+  <div class="comments" id="disqus_thread">
+    <noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
+  </div>
+  
 </div>
   </main>
 
