@@ -1,5 +1,5 @@
-https://seanxuu.github.io/2023/An-easy-way-to-understand-L1-and-L2-Regularization/
 https://seanxuu.github.io/2023/Two-ways-to-install-CUDA-11-7-on-Ubuntu/
+https://seanxuu.github.io/2023/An-easy-way-to-understand-L1-and-L2-Regularization/
 https://seanxuu.github.io/about/index.html
 https://seanxuu.github.io/2023/New-Blog-With-Hexo/
 https://seanxuu.github.io/categories/index.html
