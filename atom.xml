@@ -6,7 +6,7 @@
   <link href="https://seanxuu.github.io/atom.xml" rel="self"/>
   
   <link href="https://seanxuu.github.io/"/>
-  <updated>2023-08-06T14:40:16.212Z</updated>
+  <updated>2023-08-07T08:08:49.823Z</updated>
   <id>https://seanxuu.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>An easy way to understand L1 and L2 Regularization</title>
+    <link href="https://seanxuu.github.io/2023/An-easy-way-to-understand-L1-and-L2-Regularization/"/>
+    <id>https://seanxuu.github.io/2023/An-easy-way-to-understand-L1-and-L2-Regularization/</id>
+    <published>2023-08-07T07:54:07.000Z</published>
+    <updated>2023-08-07T08:08:49.823Z</updated>
+    
+    <content type="html"><![CDATA[<p>It is very popular that using GPT4 to explain obscure concepts these days. So I have a try today. I use the prompt: “Explain what are L1 Regularization and L2 Regularization to a seven-year-old boy.” The results are reasonable.</p><p><code>&lt;!--more--&gt; </code></p><h2 id="L1-Regularisation"><a href="#L1-Regularisation" class="headerlink" title="L1 Regularisation"></a>L1 Regularisation</h2><p>Imagine you have a bunch of blocks and you want to build a tower with them. However, your mum tells you that you can’t use too many blocks because she doesn’t want to see blocks all over the room.</p><p>L1 regularisation is like your mum’s rule. It tells you that you can build the tower, but you have to use as few blocks as possible. In maths and computer science, L1 regularisation helps to ensure that we use as few ‘building blocks’ (or features) as possible when solving problems.</p><h2 id="L2-regularisation"><a href="#L2-regularisation" class="headerlink" title="L2 regularisation"></a>L2 regularisation</h2><p>Now, imagine you have a plate of biscuits and you want to eat them, but your dad tells you that you can’t eat too many or you’ll get too full.</p><p>L2 regularisation is like your dad’s rule. Instead of telling you that you can only eat a small biscuit, it tells you to try to eat as little of each biscuit as possible. That way, you can try all the biscuits, but you won’t get too full. In maths and computer science, L2 regularisation helps to make sure that we don’t use too many “biscuits” (or features) when solving problems.</p><h2 id="Summary"><a href="#Summary" class="headerlink" title="Summary"></a>Summary</h2><ul><li><strong>L1 regularisation</strong> is like telling you that you can only build a tower with a few blocks, and asking you to choose the most important ones.</li><li><strong>L2 regularisation</strong> is like telling you that you can try all the biscuits, but you can only eat a little bit of each one.</li></ul><p>Both of these are ways to help us make better decisions when solving problems, just like you have to make smart choices when playing with toys or eating biscuits.</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;It is very popular that using GPT4 to explain obscure concepts these days. So I have a try today. I use the prompt: “Explain what are L1 </summary>
+      
+    
+    
+    
+    
+    <category term="Deep Learning" scheme="https://seanxuu.github.io/tags/Deep-Learning/"/>
+    
+    <category term="GPT4" scheme="https://seanxuu.github.io/tags/GPT4/"/>
+    
+  </entry>
   
   <entry>
     <title>Two ways to install CUDA 11.7 on Ubuntu</title>
