@@ -4,7 +4,8 @@
     <title>An easy way to understand L1 and L2 Regularization</title>
     <url>/2023/An-easy-way-to-understand-L1-and-L2-Regularization/</url>
     <content><![CDATA[<p>It is very popular that using GPT4 to explain obscure concepts these days. So I have a try today. I use the prompt: “Explain what are L1 Regularization and L2 Regularization to a seven-year-old boy.” The results are reasonable.</p>
-<p><code>&lt;!--more--&gt; </code></p>
+<span id="more"></span> 
+
 <h2 id="L1-Regularisation"><a href="#L1-Regularisation" class="headerlink" title="L1 Regularisation"></a>L1 Regularisation</h2><p>Imagine you have a bunch of blocks and you want to build a tower with them. However, your mum tells you that you can’t use too many blocks because she doesn’t want to see blocks all over the room.</p>
 <p>L1 regularisation is like your mum’s rule. It tells you that you can build the tower, but you have to use as few blocks as possible. In maths and computer science, L1 regularisation helps to ensure that we use as few ‘building blocks’ (or features) as possible when solving problems.</p>
 <h2 id="L2-regularisation"><a href="#L2-regularisation" class="headerlink" title="L2 regularisation"></a>L2 regularisation</h2><p>Now, imagine you have a plate of biscuits and you want to eat them, but your dad tells you that you can’t eat too many or you’ll get too full.</p>
