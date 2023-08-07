@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>New Blog With Hexo</title>
-    <url>/2023/New-Blog-With-Hexo/</url>
-    <content><![CDATA[<p>Hexo is not a good framework for blog.</p>
-]]></content>
-      <categories>
-        <category>Hong Kong Life</category>
-      </categories>
-      <tags>
-        <tag>Hong Kong</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>An easy way to understand L1 and L2 Regularization</title>
     <url>/2023/An-easy-way-to-understand-L1-and-L2-Regularization/</url>
     <content><![CDATA[<p>It is very popular that using GPT4 to explain obscure concepts these days. So I have a try today. I use the prompt: “Explain what are L1 Regularization and L2 Regularization to a seven-year-old boy.” The results are reasonable.</p>
@@ -31,6 +19,18 @@
       <tags>
         <tag>Deep Learning</tag>
         <tag>GPT4</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>New Blog With Hexo</title>
+    <url>/2023/New-Blog-With-Hexo/</url>
+    <content><![CDATA[<p>Hexo is not a good framework for blog.</p>
+]]></content>
+      <categories>
+        <category>Hong Kong Life</category>
+      </categories>
+      <tags>
+        <tag>Hong Kong</tag>
       </tags>
   </entry>
   <entry>
