@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://seanxuu.github.io/2023/How-to-Contribute-to-Open-Source/</loc>
+    
+    <lastmod>2023-08-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://seanxuu.github.io/2023/Two-ways-to-install-CUDA-11-7-on-Ubuntu/</loc>
     
     <lastmod>2023-08-07</lastmod>
@@ -49,7 +58,7 @@
 
   <url>
     <loc>https://seanxuu.github.io/</loc>
-    <lastmod>2023-08-07</lastmod>
+    <lastmod>2023-08-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -57,28 +66,42 @@
   
   <url>
     <loc>https://seanxuu.github.io/tags/Deep-Learning/</loc>
-    <lastmod>2023-08-07</lastmod>
+    <lastmod>2023-08-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://seanxuu.github.io/tags/GPT4/</loc>
-    <lastmod>2023-08-07</lastmod>
+    <lastmod>2023-08-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://seanxuu.github.io/tags/Hong-Kong/</loc>
-    <lastmod>2023-08-07</lastmod>
+    <loc>https://seanxuu.github.io/tags/Open-Source/</loc>
+    <lastmod>2023-08-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://seanxuu.github.io/tags/Github/</loc>
+    <lastmod>2023-08-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://seanxuu.github.io/tags/CUDA/</loc>
-    <lastmod>2023-08-07</lastmod>
+    <lastmod>2023-08-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://seanxuu.github.io/tags/Hong-Kong/</loc>
+    <lastmod>2023-08-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -86,8 +109,15 @@
 
   
   <url>
+    <loc>https://seanxuu.github.io/categories/Code/</loc>
+    <lastmod>2023-08-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://seanxuu.github.io/categories/Hong-Kong-Life/</loc>
-    <lastmod>2023-08-07</lastmod>
+    <lastmod>2023-08-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
