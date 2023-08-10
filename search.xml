@@ -1,19 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>How to Contribute to Open Source</title>
-    <url>/2023/How-to-Contribute-to-Open-Source/</url>
-    <content><![CDATA[<p>Contributing to open source is a great way to learn new skills, share your knowledge, and support the software you use.</p>
-]]></content>
-      <categories>
-        <category>Code</category>
-      </categories>
-      <tags>
-        <tag>Open Source</tag>
-        <tag>Github</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>An easy way to understand L1 and L2 Regularization</title>
     <url>/2023/An-easy-way-to-understand-L1-and-L2-Regularization/</url>
     <content><![CDATA[<p>It is very popular that using GPT4 to explain obscure concepts these days. So I have a try today. I use the prompt: “Explain what are L1 Regularization and L2 Regularization to a seven-year-old boy.” The results are reasonable.</p>
@@ -32,6 +19,19 @@
       <tags>
         <tag>Deep Learning</tag>
         <tag>GPT4</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>How to Contribute to Open Source</title>
+    <url>/2023/How-to-Contribute-to-Open-Source/</url>
+    <content><![CDATA[<p>Contributing to open source is a great way to learn new skills, share your knowledge, and support the software you use.</p>
+]]></content>
+      <categories>
+        <category>Code</category>
+      </categories>
+      <tags>
+        <tag>Open Source</tag>
+        <tag>Github</tag>
       </tags>
   </entry>
   <entry>
