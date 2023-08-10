@@ -22,16 +22,15 @@
       </tags>
   </entry>
   <entry>
-    <title>How to Contribute to Open Source</title>
-    <url>/2023/How-to-Contribute-to-Open-Source/</url>
-    <content><![CDATA[<p>Contributing to open source is a great way to learn new skills, share your knowledge, and support the software you use.</p>
+    <title>New Blog With Hexo</title>
+    <url>/2023/New-Blog-With-Hexo/</url>
+    <content><![CDATA[<p>Hexo is not a good framework for blog.</p>
 ]]></content>
       <categories>
-        <category>Code</category>
+        <category>Hong Kong Life</category>
       </categories>
       <tags>
-        <tag>Open Source</tag>
-        <tag>Github</tag>
+        <tag>Hong Kong</tag>
       </tags>
   </entry>
   <entry>
@@ -56,15 +55,16 @@
       </tags>
   </entry>
   <entry>
-    <title>New Blog With Hexo</title>
-    <url>/2023/New-Blog-With-Hexo/</url>
-    <content><![CDATA[<p>Hexo is not a good framework for blog.</p>
+    <title>How to Contribute to Open Source</title>
+    <url>/2023/How-to-Contribute-to-Open-Source/</url>
+    <content><![CDATA[<p>Contributing to open source is a great way to learn new skills, share your knowledge, and support the software you use.</p>
 ]]></content>
       <categories>
-        <category>Hong Kong Life</category>
+        <category>Code</category>
       </categories>
       <tags>
-        <tag>Hong Kong</tag>
+        <tag>Open Source</tag>
+        <tag>Github</tag>
       </tags>
   </entry>
 </search>

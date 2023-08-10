@@ -79,14 +79,7 @@
   </url>
   
   <url>
-    <loc>https://seanxuu.github.io/tags/Open-Source/</loc>
-    <lastmod>2023-08-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://seanxuu.github.io/tags/Github/</loc>
+    <loc>https://seanxuu.github.io/tags/Hong-Kong/</loc>
     <lastmod>2023-08-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -100,7 +93,14 @@
   </url>
   
   <url>
-    <loc>https://seanxuu.github.io/tags/Hong-Kong/</loc>
+    <loc>https://seanxuu.github.io/tags/Open-Source/</loc>
+    <lastmod>2023-08-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://seanxuu.github.io/tags/Github/</loc>
     <lastmod>2023-08-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -109,14 +109,14 @@
 
   
   <url>
-    <loc>https://seanxuu.github.io/categories/Code/</loc>
+    <loc>https://seanxuu.github.io/categories/Hong-Kong-Life/</loc>
     <lastmod>2023-08-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://seanxuu.github.io/categories/Hong-Kong-Life/</loc>
+    <loc>https://seanxuu.github.io/categories/Code/</loc>
     <lastmod>2023-08-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
