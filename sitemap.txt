@@ -5,10 +5,10 @@ https://seanxuu.github.io/about/index.html
 https://seanxuu.github.io/2023/New-Blog-With-Hexo/
 https://seanxuu.github.io/categories/index.html
 https://seanxuu.github.io/
-https://seanxuu.github.io/tags/Deep-Learning/
-https://seanxuu.github.io/tags/GPT4/
 https://seanxuu.github.io/tags/Open-Source/
 https://seanxuu.github.io/tags/Github/
+https://seanxuu.github.io/tags/Deep-Learning/
+https://seanxuu.github.io/tags/GPT4/
 https://seanxuu.github.io/tags/Hong-Kong/
 https://seanxuu.github.io/tags/CUDA/
 https://seanxuu.github.io/categories/Code/
