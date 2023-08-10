@@ -79,20 +79,6 @@
   </url>
   
   <url>
-    <loc>https://seanxuu.github.io/tags/Hong-Kong/</loc>
-    <lastmod>2023-08-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://seanxuu.github.io/tags/CUDA/</loc>
-    <lastmod>2023-08-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://seanxuu.github.io/tags/Open-Source/</loc>
     <lastmod>2023-08-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -106,17 +92,31 @@
     <priority>0.2</priority>
   </url>
   
-
-  
   <url>
-    <loc>https://seanxuu.github.io/categories/Hong-Kong-Life/</loc>
+    <loc>https://seanxuu.github.io/tags/Hong-Kong/</loc>
     <lastmod>2023-08-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
+    <loc>https://seanxuu.github.io/tags/CUDA/</loc>
+    <lastmod>2023-08-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+
+  
+  <url>
     <loc>https://seanxuu.github.io/categories/Code/</loc>
+    <lastmod>2023-08-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://seanxuu.github.io/categories/Hong-Kong-Life/</loc>
     <lastmod>2023-08-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
